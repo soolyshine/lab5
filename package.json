@@ -1,6 +1,21 @@
 {
-    "scripts": {
-      "dev": "rollup -c -w", 
-      "build": "rollup -c"   
-    }
+  "name": "lab5test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-run": "^3.1.0",
+    "rollup": "^4.40.0"
   }
+}
